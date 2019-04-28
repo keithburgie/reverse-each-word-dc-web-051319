@@ -3,5 +3,5 @@ def reverse_each_word(string)
     string.split.to_a.each do |word|
         array << word.reverse
     end
-    array.to_s
+    array.to_s.chomp
 end
